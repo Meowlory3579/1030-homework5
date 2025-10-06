@@ -9,69 +9,154 @@
 
 <!-- Requirement: Background color on your web page  -->
 
-<body bgcolor="teal">
+<body bgcolor="teal" style="margin:0; font-family: Arial, Helvetica, sans-serif;">
+    <div style="max-width: 1000px; margin: 0 auto; text-align: center; padding: 16px;">
 
-    <!-- Requirements: Marquee, text that is italicized, text with a different font size & style (face) -->
-    <section>
-        <marquee behavior="slide" direction="left" scrollamount="10" style="background:#e0ecff; padding:8px;">
-            <font face="Georgia, 'Times New Roman', serif" size="5">
-                "The <i>traveler</i> sees what he sees, the <i>tourist</i> sees what he has come to see."
-            </font>
-        </marquee>
-    </section>
-
-
-    <!-- Requirement: Horizontal Line -->
-    <hr />
-
-    <main>
-        <!-- Requirements: Text that is: bold, italicized, underlined -->
+        <!-- Requirements: Marquee, text that is italicized, text with a different font size & style (face) -->
         <section>
-            <h2>What Makes Travel Special?</h2>
-            <p>
-                Traveling is about exploring new places and cultures, tasting unfamiliar foods, and seeing the world
-                from fresh perspectives. It builds empathy and turns geography into lived experience. Planning the route
-                and finding your way in a new city can feel like a fun puzzle - one that rewards <b>curiosity and
-                    flexibility</b>.
-            </p>
-            <p>
-                Whether it’s a quick road trip or a long international adventure, the memories you bring home are
-                often worth <u> far more</u> than the souvenirs. It's a <i>transformative</i> experience that has
-                expanded my worldview, grown my confidence, and deepened by understanding of myself.
-            </p>
+            <marquee behavior="slide" direction="left" scrollamount="10" style="background:#e0ecff; padding:8px;">
+                <font face="Georgia, 'Times New Roman', serif" size="5">
+                    "The <i>traveler</i> sees what he sees, the <i>tourist</i> sees what he has come to see."
+                </font>
+            </marquee>
         </section>
 
-        <!-- Requirement: Text with a different font color -->
-        <section>
-            <h2>Why It’s My Favorite</h2>
-            <ul>
-                <li>
-                    <font color="orange"><b>Discovery:</b></font> Every trip reveals new histories, languages, and
-                    flavors.
-                </li>
-                <li>
-                    <font color="yellow"><b>People:</b></font> Conversations with locals and fellow travelers are
-                    unforgettable.
-                </li>
-                <li>
-                    <font color="tan"><b>Perspective:</b></font> Seeing how others live reshapes what “normal” looks
-                    like.
-                </li>
-            </ul>
-        </section>
+        <!-- Requirement: Horizontal Line -->
+        <hr style="width: 80%; margin: 16px auto; border: 0; border-top: 2px solid #fff;">
 
-        <!-- Requirements: An image, a video, a video -->
-        <section>
-            <h2>Favorite Places and Memories</h2>
-        </section>
+        <main>
+            <!-- Requirements: Text that is: bold, italicized, underlined -->
+            <section>
+                <h1>What Makes Travel Special?</h1>
+                <p>
+                    Traveling is about exploring new places and cultures, tasting unfamiliar foods, and seeing the world
+                    from fresh perspectives. It builds empathy and turns geography into lived experience. Planning the
+                    route
+                    and finding your way in a new city can feel like a fun puzzle - one that rewards <b>curiosity and
+                        flexibility</b>.
+                </p>
+                <p>
+                    Whether it’s a quick road trip or a long international adventure, the memories you bring home are
+                    often worth <u> far more</u> than the souvenirs. It's a <i>transformative</i> experience that has
+                    expanded my worldview, grown my confidence, and deepened by understanding of myself.
+                </p>
+            </section>
 
-        <!-- Requirement: An anchor (link) to a website -->
-        <section>
-            <h2>Useful Travel Resources</h2>
-        </section>
+            <!-- Requirement: Text with a different font color -->
+            <section>
+                <h1>Why It’s My Favorite</h1>
+                <ul style="display: inline-block; text-align: left; margin: 0 auto; padding-left: 1.2em;">
+                    <li>
+                        <font color="orange"><b>Discovery:</b></font> Every trip reveals new histories, languages, and
+                        flavors.
+                    </li>
+                    <li>
+                        <font color="yellow"><b>People:</b></font> Conversations with locals and fellow travelers are
+                        unforgettable.
+                    </li>
+                    <li>
+                        <font color="tan"><b>Perspective:</b></font> Seeing how others live reshapes what “normal” looks
+                        like.
+                    </li>
+                </ul>
+            </section>
 
-    </main>
+            <!-- Requirements: An image, a video, a video -->
+            <section>
+                <h1>Favorite Places and Memories</h1>
+                <!-- Photos -->
+                <h2>Photos</h2>
+                <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
+                    <figure style="margin:0; width:280px; text-align:center;">
+                        <img src="https://meowlory3579.github.io/1030-homework5/media/img/Budapest.jpg"
+                            style="width:100%; height:auto;">
+                        <figcaption style="font-style:italic; font-size:0.9em;">Budapest, Hungary</figcaption>
+                    </figure>
+                    <figure style="margin:0; width:280px; text-align:center;">
+                        <img src="https://meowlory3579.github.io/1030-homework5/media/img/Dover.jpg"
+                            style="width:100%; height:auto;">
+                        <figcaption style="font-style:italic; font-size:0.9em;">Dover, England</figcaption>
+                    </figure>
+                    <figure style="margin:0; width:280px; text-align:center;">
+                        <img src="https://meowlory3579.github.io/1030-homework5/media/img/France.jpg"
+                            style="width:100%; height:auto;">
+                        <figcaption style="font-style:italic; font-size:0.9em;">Paris, France</figcaption>
+                    </figure>
+                    <figure style="margin:0; width:280px; text-align:center;">
+                        <img src="https://meowlory3579.github.io/1030-homework5/media/img/Korcula.jpg"
+                            style="width:100%; height:auto;">
+                        <figcaption style="font-style:italic; font-size:0.9em;">Korcula, Croatia</figcaption>
+                    </figure>
+                    <figure style="margin:0; width:280px; text-align:center;">
+                        <img src="https://meowlory3579.github.io/1030-homework5/media/img/NZ.JPG"
+                            style="width:100%; height:auto;">
+                        <figcaption style="font-style:italic; font-size:0.9em;">Hobbiton, New Zealand</figcaption>
+                    </figure>
+                </div>
+                <!-- Videos -->
+                <h2>Videos</h2>
+                <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
+                    <figure style="margin:0; width:320px; text-align:center;">
+                        <div style="width:300px; aspect-ratio:9/16; background:#000; overflow:hidden;">
+                            <video controls playsinline preload="metadata"
+                                poster="https://meowlory3579.github.io/1030-homework5/media/img/MontBlanc.jpg"
+                                style="width:100%; height:100%; object-fit:cover; display:block;">
+                                <source src="https://meowlory3579.github.io/1030-homework5/media/video/MontBlanc.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+                        <figcaption style="font-style:italic; font-size:0.9em;">Chamonix, France</figcaption>
+                    </figure>
+                    <figure style="margin:0; width:320px; text-align:center;">
+                        <div style="width:300px; aspect-ratio:9/16; background:#000; overflow:hidden;">
+                            <video controls playsinline preload="metadata"
+                                poster="https://meowlory3579.github.io/1030-homework5/media/img/Palermo.jpg"
+                                style="width:100%; height:100%; object-fit:cover; display:block;">
+                                <source src="https://meowlory3579.github.io/1030-homework5/media/video/Palermo.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+                        <figcaption style="font-style:italic; font-size:0.9em;">Palermo, Italy</figcaption>
+                    </figure>
+                    <figure style="margin:0; width:320px; text-align:center;">
+                        <div style="width:300px; aspect-ratio:9/16; background:#000; overflow:hidden;">
+                            <video controls playsinline preload="metadata"
+                                poster="https://meowlory3579.github.io/1030-homework5/media/img/Vienna.jpg"
+                                style="width:100%; height:100%; object-fit:cover; display:block;">
+                                <source src="https://meowlory3579.github.io/1030-homework5/media/video/Vienna.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+                        <figcaption style="font-style:italic; font-size:0.9em;">Vienna, Austria</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <!-- Audio -->
+            <h2>My favorite sounds - church bells and clock towers</h2>
+            <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
+                <audio controls preload="metadata">
+                    <source src="https://meowlory3579.github.io/1030-homework5/media/audio/Bells.m4a" type="audio/mp4">
+                </audio>
+            </div>
 
+            <!-- Requirement: An anchor (link) to a website -->
+            <section>
+                <h2>Useful Travel Resources</h2>
+                <ul style="display:inline-block; text-align:left; margin:0 auto; padding-left:1.2em;">
+                    <li><a href="https://www.lonelyplanet.com/" target="_blank" rel="noopener noreferrer">Lonely
+                            Planet</a> - destination guides</li>
+                    <li><a href="https://travel.state.gov/" target="_blank" rel="noopener noreferrer">U.S. Travel
+                            Advisories</a> - entry rules & safety</li>
+                    <li><a href="https://www.rome2rio.com/" target="_blank" rel="noopener noreferrer">Rome2Rio</a> -
+                        transport options</li>
+                    <li><a href="https://www.ricksteves.com/travel-tips/packing-light/ricks-packing-list"
+                            target="_blank" rel="noopener noreferrer">Rick Steves</a> - packing list</li>
+                </ul>
+            </section>
+
+        </main>
+
+    </div>
 </body>
 
 </html>
